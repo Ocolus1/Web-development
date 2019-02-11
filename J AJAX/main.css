@@ -1,0 +1,67 @@
+#main-container{
+    width: 590px;
+    background-color: darkslategray;
+    height: 345px;
+    margin-left: 415px;
+    margin-top: 150px;
+}
+#clock-container{
+    background-color: darkslategray;
+    width: 590px;
+    height: 200px;
+    
+}
+table{
+    background-color: darkgrey;
+}
+
+#first-second{
+    
+    width: 120px;
+    padding: 0px;
+    margin: 0px;
+    float: right;
+}
+#month-date{
+    
+    padding: 0px;
+   width: 130px;
+   float: left;
+   height: 120px;
+   margin-left: 10px;
+}
+#p1{
+    float: left;
+    font-weight: bold;
+}
+#p2{
+    float: right;
+    font-weight: bold;
+}
+#demo{
+    clear: both;
+}
+#first, #second, #third{
+    width: 20px;
+}
+span{
+    font-weight: bolder;
+    font-size: 20px;
+}
+b{
+    font-size: 20px;
+}
+#snd-container{
+    font-size: 90px;
+    text-align: center;
+    margin-top: 0px;
+    transform: translateX(0%) translateY(40%);
+}
+#audio{
+    display: none;
+}
+#design{
+    font-family: 'Freestyle Script';
+    font-size: 50px;
+    margin-left: 40px;
+}
