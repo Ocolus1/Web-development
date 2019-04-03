@@ -1,0 +1,40 @@
+{% extends 'layout.html' %}
+{% block body %}
+    <!--<div class="text-white bg-success">-->
+        <!--<h3 class="ml-5">CBT Practice</h3>-->
+    <!--</div>-->
+<style type="text/css">
+    :root {
+    --jumbotron-padding-y: 3rem;
+  }
+
+  .jumbotron {
+    padding-top: var(--jumbotron-padding-y);
+    padding-bottom: var(--jumbotron-padding-y);
+    margin-bottom: 0;
+    background-color: #fff;
+    background-image: url({{url_for('static', filename = 'img/laptop.jpeg')}});
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+  }
+.jumbotron .container{
+    max-width: 40rem;
+    background: rgba(225,225,225,0.2);
+    padding: 5rem;
+}
+
+
+</style>
+
+        <section class="jumbotron text-center" >
+          <div class="container">
+            <h1 class="jumbotron-heading text-white"><h1>Welcome to the <b>CBT Practice</b></h1></h1>
+            <p class="lead">CBT Practice is a simple website aimed at improving and educating young scholars. It is for all senior secondary school department.</p>
+            <p class="lead">
+              Click Login at the top right corner to begin test, if you are not registered yet click the register link
+            </p>
+          </div>
+        </section>
+
+{% endblock %}
