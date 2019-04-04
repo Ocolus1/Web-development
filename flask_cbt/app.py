@@ -4,7 +4,7 @@ from wtforms import Form,StringField,TextAreaField,PasswordField,validators
 from passlib.hash import sha256_crypt
 
 app = Flask(__name__)
-# Created a table
+# Created a table in the database
 # import mysql.connector
 # #
 # mydb = mysql.connector.connect(
