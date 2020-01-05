@@ -1,0 +1,96 @@
+/* the body */
+body{
+    background-color: #F5EFED;
+    color: #0F0A0A;
+    height: 100%;
+}
+
+#wholediv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* the section */
+section{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 60rem;
+    margin-top: 3.5rem;
+}
+
+/* the first div in the page */
+#first_div{
+    background-image: url('../img/laptop.jpeg');
+    background-size: cover;
+}
+
+/* the text and password input button */
+input[type=text], input[type=email], input[type=password]{
+    width:22rem;
+    border: 0rem;
+    border-bottom: 0.1rem solid;
+    background-color: #F5EFED;
+    border-color: #0F0A0A;
+}
+
+/* the submit button */
+input[type=submit]{
+    background-color: #0F0A0A;
+    /* color: #2292A4; */
+}
+
+@media only screen and (max-width: 1024px){
+    section{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        width: 60rem;
+        margin-top: 3.5rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    section{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        width: 60rem;
+        margin-top: 3.5rem;
+    }
+
+    /* the text and password input button */
+    input[type=text], input[type=email], input[type=password]{
+        width:20rem;
+        border: 0rem;
+        border-bottom: 0.1rem solid;
+        background-color: transparent;
+        border-color: #0F0A0A;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        width: 100%;
+    }
+
+    section{
+        position: static;
+        width: 100%;
+        flex: block;
+        background-image: url(../img/laptop.jpeg);
+        background-size: cover;
+        margin: 0rem;
+    }
+    
+    #first_div{
+        display: none;
+    }
+
+    /* the text and password input button */
+    input[type=text], input[type=email], input[type=password]{
+        width:25rem;
+        border: 0rem;
+        border-bottom: 0.1rem solid;
+        background-color: transparent;
+        border-color: #0F0A0A;
+    }
+    h2{
+        padding: 0rem 0rem 2rem 0rem;
+    }
+}
