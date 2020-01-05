@@ -1,0 +1,362 @@
+
+/* the navbar */
+nav{
+    color: red;
+    background-color: white;
+    height: 6rem;
+    position: relative;
+}
+
+#logo{
+    position: absolute;
+    left: 7rem;
+}
+
+#about{
+    position: absolute;
+    left:27rem;
+    width: 10rem;
+}
+
+#stories{
+    position:absolute;
+    left: 40rem;
+    top: 0.5rem;
+    width: 10rem;
+}
+
+#news{
+    position: absolute;
+    left:55rem;
+    top: 0.5rem;
+    width: 10rem;
+}
+
+#section1_text1{
+    position: absolute;
+    left: 4rem;
+    top: -0.5rem;
+    background-color: #2C1F1F;
+    width: 7rem;
+    text-align: center;
+}
+
+#nav_div{
+    position: absolute;
+    top: 1.5rem; 
+    
+}
+
+#button{
+    position: absolute;
+    left: 73rem;
+    width: 10rem;
+    color: black;
+    background-color: #98C367;
+}
+
+/* the first section */
+#section1{
+    position: relative;
+    /* width: 100%; */
+    height: 35rem;
+    background-image: url('../img/img9.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+/* the white div in the 1st section */
+#section1_div{
+    position: relative;
+    width: 25rem;
+    height: 19rem;
+    top: -2rem;
+    background-color: white;
+}
+
+#section1_text2{
+    position: absolute;
+    left: 25rem;
+    top: 29.5rem;
+    background-color: #2C1F1F;
+    color: white;
+    width: 7rem;
+}
+
+.text-content3{
+    position: absolute;
+    left: 2rem;
+    top: 3rem;
+    width: 3rem;
+}
+
+/* the table inside the 1st section */
+#section1_table{
+    padding: 10rem 0rem 0rem 8rem;
+    position: absolute;
+    top: 7rem;
+    left: 15rem;
+}
+
+/* text content in the 1st section */
+.text-content1{
+    position: relative;
+    left: 7.5rem;
+    top: 0rem;
+    color: white;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* the h2 in the div */
+.text-content3{
+    text-align: center;
+    padding: 1rem;
+    width: 20rem;
+    color: black;
+}
+
+/* the second section */
+#section2{
+    background-color: #98C367;
+    /* width: 100%; */
+    height: 15rem;
+}
+
+#section2_div{
+    position: relative;
+    left: 7.5rem;
+}
+
+/* the third section */
+#section3{
+    background-color: #2C1F1F;
+    /* width: 100%; */
+    height: 55rem;
+}
+
+#btn1, #btn2, #btn3{
+    color: white;
+    background-color: #996A6A;
+}
+
+/* the card in section three */
+.card{
+    border: 0px;
+    margin-top: 2.5rem;
+}
+
+/* the text content in 3rd section */
+.text-content{
+    color: white;
+    padding: 3rem 0rem;
+    font-family: monospace;
+    text-align: justify;
+}
+
+/* the div in the fourth section */
+#section4_div{
+    position: absolute;
+    width: 25rem;
+    height:15rem;
+    top: 10rem;
+    left:12rem;
+}
+
+#section4_btn{
+    color: white;
+    background-color: #2C1F1F;
+}
+
+#section4_text{
+    position: absolute;
+    background-color: #2C1F1F;
+    color: white;
+    left: 2rem;
+    top: -0.7rem;
+    width: 9rem;
+    text-align: center;
+    padding: 0.3rem;
+}
+
+/* the 4th section  */
+#section4{
+    position: relative;
+    background-image: url('../img/img5.jpg');
+    background-size: cover;
+    background-position: center center;
+    /* width: 100%; */
+    height: 55rem;
+}
+
+/* the 2nd div in section4 */
+#section4_div2{
+    position: absolute;
+    left:50rem;
+    top: 0rem;
+}
+
+/* the text content in the 4th section */
+.text-content4{
+    padding: 2.5rem 0rem 4rem 0rem;
+    color: white;
+}
+
+/* the fifth section */
+#section5{
+    position: relative;
+    /* width: 100%; */
+    height: 30rem;
+}
+
+/* the image in the 5th section */
+#section5_img{
+    position: absolute;
+    left: 35rem;
+    top: 2.6rem;
+    height: 23rem;
+    width: 32rem;
+}
+
+.section5_div{
+    position: absolute;
+    left: 15rem;
+    top: 6.6rem;
+    width: 25rem;
+    height: 15rem;
+    color: white;
+    background-color: #2C1F1F;
+    text-align: center;
+    padding: 3rem;
+}
+
+#section5_btn{
+    position: absolute;
+    left: 17rem;
+    top: 23rem;
+    background-color: #98C367;
+}
+/* the sixth section */
+#section6{
+    position: relative;
+    /* width: 100%; */
+    height: 70rem;
+    background-color: #2C1F1F;
+    color: white;
+}
+
+#inner_div1{
+    position: absolute;
+    left: 50rem;
+    top:17rem
+}
+
+#inner_div2{
+    position: absolute;
+    left: 15rem;
+    top: 40rem;
+}
+
+#inner_div1, #inner_div2{
+    width: 25rem;
+}
+
+#inner_div_btn2, #inner_div_btn4{
+    background-color: #98C367;
+}
+
+#inner_div_btn3{
+    width: 9rem;
+}
+
+#section6_img{
+    /* padding: 5rem; */
+    margin-left: 12rem;
+}
+
+#section6_img2{
+    /* padding: 5rem; */
+    margin-right: 4rem;
+    position: absolute;
+    left: 50rem;
+    top: 40rem;
+}
+
+.text-content5{
+    color: white;
+    padding: 5rem 0rem 3rem 10rem;
+    font-size: 4rem;
+    font-family: monospace;
+}
+
+/* the senventh section */
+#section7{
+    background-color: #996A6A;
+    /* width: 100%; */
+    height: 10rem;
+    position: relative;
+}
+
+#section7_div{
+    position: absolute;
+    left: 15rem;
+    top: 1rem;
+    /* background-color: #d1d0d0; */
+    padding-top: 3rem;
+}
+
+#section7_btn{
+    background-color: #98C367;
+    font-size: 1.5rem;
+}
+
+#section7_text{
+    font-size: 1.5rem;
+    font-family: monospace;
+}
+
+#section7_input{
+    height: 3rem;
+    width: 25rem;
+}
+
+#text-content6{
+    color:white;
+}
+
+#section8{
+    position: relative;
+    /* width: 100%; */
+    height: 20rem;
+}
+
+#section8_table{
+    position: absolute;
+    top: 3rem;
+    left: 5.5rem;
+    width: 78rem;
+}
+
+li{
+    list-style: none;
+}
+
+hr{
+    width: 8rem;
+    margin-left: -0.8rem;
+}
+
+#section8_text1{
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+#section8_text2{
+    padding: 1rem;
+    font-size: xx-large;
+}
+
+footer{
+    background-color: #d1d0d0;
+}
+
